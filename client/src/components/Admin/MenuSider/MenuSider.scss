@@ -1,0 +1,14 @@
+@import "../../../scss/index.scss";
+
+.menu-sider {
+    background-color: $background-nav;
+    position: fixed;
+    left: 0;
+    top: 65px;
+    height: 100vh;
+    overflow: auto;
+
+    .ant-menu {
+        background-color: $background-nav;
+    }
+}

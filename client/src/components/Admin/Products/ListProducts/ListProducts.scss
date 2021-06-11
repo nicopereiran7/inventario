@@ -1,0 +1,30 @@
+@import "../../../../scss/index.scss";
+
+.list-products {
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .btns {
+            display: flex;
+            justify-content: flex-end;
+
+            .ant-input-search {
+                margin-right: 6px;
+            }
+    
+            .btn {
+                z-index: 1;
+            }
+        }
+    }
+}
+
+.ant-list-item {
+    transition: 0.3s ease all;
+    &:hover {
+        background-color: $background-hover;
+    }
+}   

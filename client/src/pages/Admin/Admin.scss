@@ -1,0 +1,21 @@
+@import "../../scss/index.scss";
+
+.admin {
+    text-align: center;
+    &__welcome {
+        font-size: 40px;
+    }
+}
+
+.ant-col {
+    cursor: pointer;
+    transition: 0.3s ease all;
+    
+    &:hover {
+        background-color: $background-hover;
+    }
+
+    .ant-statistic {
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,11 @@
+@import "../../../../scss/index.scss";
+
+.list-registers {
+    &__list {
+        .registers {
+            .ant-timeline {
+                align-items: center;
+            }
+        }
+    }
+}

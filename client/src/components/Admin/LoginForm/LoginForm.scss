@@ -1,0 +1,26 @@
+@import "../../../scss/index.scss";
+
+.login-form {
+    .ant-form-item {
+        &:nth-child(3),
+        &:last-of-type {
+            margin: 0;
+        }
+    }
+
+    input {
+        font-size: 0em + 20px / $defaultFontSize;
+        padding: 20px 20px 20px 40px !important;
+        &:focus {
+            border-color: $primary-color;
+            box-shadow: none;
+        }
+    }
+
+    &__button {
+        width: 100%;
+        font-size: 0em + 22px / $defaultFontSize;
+        color: $font-light;
+        height: 42px;
+    }
+}
